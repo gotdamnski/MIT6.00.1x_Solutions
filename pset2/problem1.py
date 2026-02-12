@@ -1,6 +1,6 @@
-balance = 42
-annualInterestRate = 0.2
-monthlyPaymentRate = 0.04
+balance = float(input("Balance: "))
+annualInterestRate = float(input("Interest Rate: "))
+monthlyPaymentRate = float(input("Minimal Payment Rate: "))
 
 
 monthlyInterestRate = annualInterestRate / 12.0
